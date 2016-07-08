@@ -10,61 +10,30 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
      vertical-align: middle;border:1px;
      
 }
-#mytable .myheader{
-   width:120px;
-	
-	text-align: center;
+.top{
+   width:100%;
+   height:100px;
+   background:#030305;
 }
-.header_td{
-	padding:0;
-}
-.home{
-	display:-webkit-flex;
-}
-.home a{
-	  -webkit-flex:1;
-	  color:#f2f2f2;
-	  list-style: none;
-}
-.home_main{
-	  height:auto;
-	
-}
-.container{
-	  width:100%;
-	  height:660px;
-	  background:url(../images/desktop.jpg) no-repeat right;
-	  background-size:80% 100%;
-}
-.index_header{
-	 width:80%;
+.jineng_header{
+	  width:80%;
 	  display: -webkit-flex;
 	  position: absolute;
 	  left:10px;
 	  z-index: 100;
 	  height:100px;
 	  line-height:100px;
-	  background:transparent;
 	  left:10%;
+	 
 	
 }
-.index_header a{ 
+.jineng_header a{ 
      -webkit-flex:1;
      color: #E5E8EA;
      font-weight: bolder;
      text-align: center;
 }
-.mark{
-	  width:100%;
-	  height:200px;
-	  line-height:200px;
-	  position: absolute;
-	  top:250px;
-	  background: rgba(225,225,225,.3);
-	  left: 0;
-	  z-index: 10;
-	  font-size: 100px;
-	  color:#ccc;
-	  text-align: center;
-	  font-family: cursive;
+.team{
+	  width:460px;
+	  height:auto;
 }
